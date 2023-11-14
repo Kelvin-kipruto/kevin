@@ -1,0 +1,16 @@
+{% extends 'layout.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<figure>
+    <img src="{{ url_for('static', filename='/images/uoemlogo.png') }}" class="logo">
+    <figcaption>No 1 university in Africa!</figcaption>
+</figure>
+
+<p>Welcome back, {{ username }}!</p>
+
+
+
+{% endblock %}
+
